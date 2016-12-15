@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">TigerBook</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+    <!-- Menu Strings -->
+    <string name="logout_menu">Sign out</string>
+    <string name="messages">Messages</string>
+    <string name="refresh_menu">Refresh</string>
+    <string name="search_menu">Search</string>
+
+    <string-array name="category_list">
+        <item>Select a category </item>
+        <item>Science fiction</item>
+        <item>Satire</item>
+        <item>Drama</item>
+        <item>Action and Adventure</item>
+        <item>Romance</item>
+        <item>Mystery</item>
+        <item>Horror</item>
+        <item>Self help</item>
+        <item>Health</item>
+        <item>Guide</item>
+        <item>Travel</item>
+        <item>Religion</item>
+        <item>Science</item>
+        <item>History</item>
+        <item>Math</item>
+        <item>Anthology</item>
+        <item>Poetry</item>
+        <item>Encyclopedias</item>
+        <item>Dictionaries</item>
+        <item>Comics</item>
+        <item>Art</item>
+        <item>Cookbooks</item>
+        <item>Diaries</item>
+        <item>Journals</item>
+        <item>Prayer books</item>
+        <item>Series</item>
+        <item>Biographies</item>
+        <item>Autobiographies</item>
+        <item>Fantasy</item>
+
+    </string-array>
+    <string-array name="condition_list">
+        <item>Select a condition</item>
+        <item>New</item>
+        <item>Used</item>
+    </string-array>
+
+    <string name="add_a_picture_option_1">From camera</string>
+    <string name="add_a_picture_option_2">From image gallery </string>
+    <string name="cancel">cancel</string>
+    <string name="choose_an_app">choose an app</string>
+    <string name="add_img_icon">Add an image</string>
+
+
+</resources>

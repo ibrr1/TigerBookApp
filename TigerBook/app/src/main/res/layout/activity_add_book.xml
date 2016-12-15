@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_book"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tigerbook.ibrahim.tigerbook.AddBookActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:id="@+id/titleET"
+        android:hint="Book Title" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/categorySpr"
+        android:layout_marginTop="30dp"
+        android:id="@+id/conditionSpr"
+        android:layout_alignStart="@+id/priceET"
+        android:layout_alignEnd="@+id/priceET" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:id="@+id/priceET"
+        android:hint="Price"
+        android:layout_below="@+id/conditionSpr"
+        android:inputType="numberDecimal"
+        android:layout_alignStart="@+id/titleET" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/categorySpr"
+        android:layout_below="@+id/titleET"
+        android:layout_alignStart="@+id/conditionSpr"
+        android:layout_alignEnd="@+id/conditionSpr" />
+
+    <Button
+        android:text="Add a Book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addBookBtn"
+        android:background="@drawable/main_btn"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp" />
+</RelativeLayout>
