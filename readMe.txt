@@ -5,7 +5,7 @@ App Description:
 TigerBook is Android App which allows RIT students to sell and buy books from each other. 
 
 
-Login Credentials:
+Demo Accounts:
 ------------------
 To use the app, an email and password are required, following are the login credentials for two users:
 - User 1: 
