@@ -1,5 +1,3 @@
-TigerBook App
-
 App Description:
 ----------------
 TigerBook is Android App which allows RIT students to sell and buy books from each other. 
